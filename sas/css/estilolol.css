@@ -1,0 +1,69 @@
+body
+{
+    background-image: ('img/patch.jpg');
+    background-color: #787496;
+    align-items: center;
+}
+
+#titlepoint
+{
+    display: block;
+    padding: 10px;
+    border: 2px solid #394263;
+    margin: 10px auto;
+    color: #ededed;
+    background-color: #394263;
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+}
+
+.menu_horizontal
+{
+    color: #ededed;
+    background-color: #394263;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 20px;
+}
+
+.menu_horizontal > li > a
+{
+    display: block;
+    padding: 15px 20px;
+    color: #ededed;
+}
+
+.menu_horizontal > li:hover
+{
+    background-color: #7b7b7b;
+}
+nav
+{
+    max-width: 900px;
+    margin: auto;
+    background-color: #394263;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.new-patch 
+{
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Altura ajustada según sea necesario */
+    padding: 20px; /* Espaciado alrededor del contenido */
+    width: 400px;
+}
+
+.card {
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para el contenido */
+    padding: 20px;
+    
+}
+
